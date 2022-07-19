@@ -3,6 +3,7 @@ from datetime import date, datetime, timedelta
 #from icecream import ic
 import math
 from operator import index
+from cv2 import CALIB_CB_CLUSTERING
 #from tracemalloc import start
 import pandas as pd
 import Regexes
@@ -11,6 +12,7 @@ import numpy as np
 import re
 from ReadSheets import excelIdentifier
 import traceback
+from SupplyWriteOff import calculateWriteOffs
 
 month = sys.argv[1]
 sheets = sys.argv[2:]
@@ -400,7 +402,10 @@ class Medicamentos:
             else:
                 df_provisioning = df_provisioning.append(df[key], ignore_index=True)
 
-            df_provisioning.to_excel('planlha_supply2.xlsx')
+            df_provisioning.to_excel('planilha_supply2.xlsx')
+
+        for k in list(df.keys()):
+            calculateWriteOffs(self.d, df[k])
 
 
         df_table = None

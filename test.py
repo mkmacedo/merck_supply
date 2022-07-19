@@ -121,18 +121,25 @@ def calculateWriteOffs(dictMateriais, df):
         for key in list(df.keys()):
             meses =list(df[key]['Meses'])
             forecast = list(df[key]['Forecast'])
+            forecastReplica = None
+            
             
 
             if key == material:
+            
+                batchExpirationDict = {}
 
                 for batch in list(dictMateriais[material]['Batch'].keys()):
                     stockAmount = dictMateriais[material]['Batch'][batch].get('Stock Amount')
                     lsdString = dictMateriais[material]['Batch'][batch].get('Limit sales date')
-                    
+                    limitSalesDate = datetime.strptime(lsdString, "%Y-%m-%d")
+                    batchExpirationDict[batch] = limitSalesDate
+
+                orderedBatchList = sorted(batchExpirationDict.items(), key=lambda item: item[1])  
+                for batch in orderedBatchList:    
                     limitMonth = meses[0]
                     for m in meses:
                         dateObj = datetime.strptime(m.lower(), "%b %Y")
-                        limitSalesDate = datetime.strptime(lsdString, "%Y-%m-%d")
                         if dateObj < limitSalesDate:
                             limitMonth = dateObj.strf("%b %Y").upper()
 
@@ -140,6 +147,8 @@ def calculateWriteOffs(dictMateriais, df):
                     _meses = meses[:idx + 1]
                     forecastReplica = pd.Series(data=forecast, index=_meses)
                     wo = eat(forecastReplica, stockAmount)
+                    dictMateriais[material]['Batch'][batch]["Write off"] = wo
+
 
 
 
