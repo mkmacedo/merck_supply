@@ -175,6 +175,8 @@ class Medicamentos:
                     limit = batchExpDate[0].date() - timedelta(days=30*self.params_dict.get(f, 12))
                     self.d[f]['Batch'][str(self.df_estoque_all.loc[i, 'Batch'])]['Limit sales date'] = (limit, limit.strftime('%Y-%m-%d'))[1] # Tuple Datetime
 
+                    self.d[f]['Batch'][str(self.df_estoque_all.loc[i, 'Batch'])]['Write off'] = 0
+
             # for key in self.d[f]['Batch'].keys():
             #     print(key)
             #     print(self.d[f]['Batch'][key]['Stock Amount'])
@@ -221,6 +223,7 @@ class Medicamentos:
                         limit = batchAbaProdutosExpDate[0].date() - timedelta(days=30*self.params_dict.get(f, 12))
                         self.d[f]['batchAbaProdutos'][str(self.df_produtos.loc[i, 'Batch'])]['Limit sales date'] = (limit, limit.strftime('%Y-%m-%d'))[1] #Tuple Datetime
 
+                        self.d[f]['batchAbaProdutos'][str(self.df_produtos.loc[i, 'Batch'])]['Write off'] = 0
 
         df = {} # Chave ==>> Código do Material; Valor ==>> DataFrame
         codes = list(self.d.keys())
@@ -404,10 +407,13 @@ class Medicamentos:
 
             df_provisioning.to_excel('planilha_supply2.xlsx')
 
-        for k in list(df.keys()):
-            calculateWriteOffs(self.d, df[k])
-
-
+        #for k in list(df.keys()):
+        calculateWriteOffs(self.d, df)
+        for m in list(self.d.keys()):
+            
+            for b in list(self.d[m]["Batch"].keys()):
+                print(self.d[m]["Batch"][b])
+        
         df_table = None
         for key in list(self.d.keys()):
 
@@ -421,6 +427,7 @@ class Medicamentos:
             monthsList = []
             limitSalesDateList = []
             blockedList = []
+            writeOffList = []
 
 
             for batchKey in list(self.d[key]['Batch']):
@@ -451,6 +458,9 @@ class Medicamentos:
                 blocked = self.d[key]['Batch'][batchKey].get('Blocked')
                 blockedList.append(blocked)
 
+                writeOffs = self.d[key]['Batch'][batchKey].get('Write off')
+                writeOffList.append(writeOffs)
+
             if self.d[key].get('batchAbaProdutos') != None:
                 for batchKey in list(self.d[key]['batchAbaProdutos']):
 
@@ -480,6 +490,9 @@ class Medicamentos:
                     blocked = self.d[key]['batchAbaProdutos'][batchKey].get('Blocked')
                     blockedList.append(blocked)
 
+                    writeOffs = self.d[key]['batchAbaProdutos'][batchKey].get('Write off')
+                    writeOffList.append(writeOffs)
+
             lgth = len(batchList)
             productList = [key]*lgth
             descriptionList = [self.d[key].get('Description')]*lgth
@@ -506,10 +519,11 @@ class Medicamentos:
                     'Days': daysList,
                     'Month': monthsList,
                     'Limit Sales Date': limitSalesDateList,
+                    'Write off': writeOffList,
                     'Plant': plantList,
                     'BSK': batchStatusKeyList,
                     'Blocked': blockedList,
-                    'Destruição': destruicaoList 
+                    'Destruição': destruicaoList
                     }
 
             if type(df_table) == type(None):
