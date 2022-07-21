@@ -197,9 +197,9 @@ class Medicamentos:
                             self.d[f]['batchAbaProdutos'][str(self.df_produtos.loc[i, 'Batch'])] = {}
                     
                         if self.d[f]['batchAbaProdutos'][str(self.df_produtos.loc[i, 'Batch'])].get('Stock Amount') == None:
-                            self.d[f]['batchAbaProdutos'][str(self.df_produtos.loc[i, 'Batch'])]['Stock Amount'] = self.df_produtos.loc[i, 'Amount']
+                            self.d[f]['batchAbaProdutos'][str(self.df_produtos.loc[i, 'Batch'])]['Stock Amount'] = self.df_produtos.loc[i, 'Amount'] if type(self.df_produtos.loc[i, 'Amount']) == type(1.5) or type(self.df_produtos.loc[i, 'Amount']) == type(1) else 0
                         else:
-                            self.d[f]['batchAbaProdutos'][str(self.df_produtos.loc[i, 'Batch'])]['Stock Amount'] += self.df_produtos.loc[i, 'Amount']
+                            self.d[f]['batchAbaProdutos'][str(self.df_produtos.loc[i, 'Batch'])]['Stock Amount'] += self.df_produtos.loc[i, 'Amount'] if type(self.df_produtos.loc[i, 'Amount']) == type(1.5) or type(self.df_produtos.loc[i, 'Amount']) == type(1) else 0
 
                         self.d[f]['batchAbaProdutos'][str(self.df_produtos.loc[i, 'Batch'])]['Plant'] = ''
                         self.d[f]['batchAbaProdutos'][str(self.df_produtos.loc[i, 'Batch'])]['Batch status key'] = ''
@@ -415,7 +415,7 @@ class Medicamentos:
         #    for b in list(self.d[m]["Batch"].keys()):
         #        print(self.d[m]["Batch"][b])
         
-        calculateTransfer(self.d, df)
+        #calculateTransfer(self.d, df)
         
         df_table = None
         for key in list(self.d.keys()):
