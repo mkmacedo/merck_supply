@@ -13,6 +13,7 @@ import re
 from ReadSheets import excelIdentifier
 import traceback
 from SupplyWriteOff import calculateWriteOffs
+from SupplyTransf import calculateTransfer
 
 month = sys.argv[1]
 sheets = sys.argv[2:]
@@ -409,10 +410,12 @@ class Medicamentos:
 
         #for k in list(df.keys()):
         calculateWriteOffs(self.d, df)
-        for m in list(self.d.keys()):
+        #for m in list(self.d.keys()):
             
-            for b in list(self.d[m]["Batch"].keys()):
-                print(self.d[m]["Batch"][b])
+        #    for b in list(self.d[m]["Batch"].keys()):
+        #        print(self.d[m]["Batch"][b])
+        
+        calculateTransfer(self.d, df)
         
         df_table = None
         for key in list(self.d.keys()):

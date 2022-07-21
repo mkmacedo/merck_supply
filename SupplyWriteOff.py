@@ -42,7 +42,7 @@ def calculateWriteOffs(dictMateriais, df):
                     limitMonth = None  
                     for batch in orderedBatchList:
                         limitSalesDate = batch[1] 
-                        stockAmount = batchStockAmountDict[batch]
+                        stockAmount = batchStockAmountDict[batch[0]]
                         previousLimitMonth = limitMonth
                         for m in meses:
                             try:
