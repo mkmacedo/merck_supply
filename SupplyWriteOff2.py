@@ -15,17 +15,13 @@ def eat(pandasSeries, v):
     return v
 
 
-def calculateWriteOffs(dictMateriais, df):
-    for material in list(dictMateriais.keys()):
-        #print(material)
 
-        for key in list(df.keys()):
-            #print(key)
-            if key == material:
+
+def calculateWriteOffs(dictMateriais, df, material, batch):
                 try:
-                    meses =list(df[key]['Meses'])
-                    forecast = list(df[key]['Forecast'])
-                    forecastReplica = pd.Series()
+                    meses =list(df[material]['Meses'])
+                    forecast = list(df[material]['Forecast'])
+                    forecastReplica = None
                     
                     batchExpirationDict = {}
 
@@ -36,42 +32,35 @@ def calculateWriteOffs(dictMateriais, df):
                         batchExpirationDict[batch] = limitSalesDate
 
                     orderedBatchList = sorted(batchExpirationDict.items(), key=lambda item: item[1])
-
                     limitMonth = None  
                     for batch in orderedBatchList:
-                        limitSalesDate = batch[1] 
+                        print(limitSalesDate)    
                         previousLimitMonth = limitMonth
                         for m in meses:
-                            #if batch[0] == "AU029342":
-                            #    print(batch)
                             try:
-                                
+                            #print(m,"MES")
                                 dateObj = datetime.strptime(m.lower(), "%b %Y")
-                                #print(dateObj)
                                 if dateObj < limitSalesDate:
                                     limitMonth = dateObj.strftime("%b %Y").upper()
                             except:
                                 ...                        
                         if limitMonth != None:
                             idx = meses.index(limitMonth)
-                            if forecastReplica.empty or previousLimitMonth != limitMonth:
+                            if forecastReplica == None or previousLimitMonth != limitMonth:
                                 _meses = meses[:idx + 1]
                                 _forecast = forecast[:idx + 1]
                                 forecastReplica = pd.Series(data=_forecast, index=_meses)
-                            #print()
-                            #print(batch[0],"Forecast Replica: ",forecastReplica)
-                            #print(batch[0],"Stock Amount: ",stockAmount)
+                            print(forecastReplica)
+                            print(stockAmount)
                             wo = eat(forecastReplica, stockAmount)
-                            #print(batch[0],"Forecast Replica2: ",forecastReplica)
+                            print(forecastReplica)
                             for i in range(len(forecastReplica)):
-                               forecast[i] = forecastReplica[i] 
+                               meses[i] = forecastReplica[i] 
                             dictMateriais[material]['Batch'][batch[0]]["Write off"] = wo
-                            #print("BATCH: ",batch,"WO: ",wo)
-                            #print()
+                            print(batch,wo)
 
                 except:
                     traceback.print_exc()
 
-                    print(key)
                     print("AQUI",df[key], "aqui")
                     ...

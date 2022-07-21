@@ -175,7 +175,7 @@ class Medicamentos:
                     limit = batchExpDate[0].date() - timedelta(days=30*self.params_dict.get(f, 12))
                     self.d[f]['Batch'][str(self.df_estoque_all.loc[i, 'Batch'])]['Limit sales date'] = (limit, limit.strftime('%Y-%m-%d'))[1] # Tuple Datetime
 
-                    self.d[f]['Batch'][str(self.df_estoque_all.loc[i, 'Batch'])]['Write off'] = 0
+                    self.d[f]['Batch'][str(self.df_estoque_all.loc[i, 'Batch'])]['Write off'] = self.d[f]['Batch'][str(self.df_estoque_all.loc[i, 'Batch'])]['Stock Amount']
 
             # for key in self.d[f]['Batch'].keys():
             #     print(key)
@@ -223,7 +223,7 @@ class Medicamentos:
                         limit = batchAbaProdutosExpDate[0].date() - timedelta(days=30*self.params_dict.get(f, 12))
                         self.d[f]['batchAbaProdutos'][str(self.df_produtos.loc[i, 'Batch'])]['Limit sales date'] = (limit, limit.strftime('%Y-%m-%d'))[1] #Tuple Datetime
 
-                        self.d[f]['batchAbaProdutos'][str(self.df_produtos.loc[i, 'Batch'])]['Write off'] = 0
+                        self.d[f]['batchAbaProdutos'][str(self.df_produtos.loc[i, 'Batch'])]['Write off'] = "-"
 
         df = {} # Chave ==>> Código do Material; Valor ==>> DataFrame
         codes = list(self.d.keys())

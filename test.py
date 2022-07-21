@@ -20,3 +20,10 @@ v = [570.0,
 s = pd.Series(data=v, index=m)
 
 print(eat(s,4327))
+print(s)
+print(eat(s, 1000))
+#print(len(s))
+
+#for i in range(len(s)):
+#    print(s[i])
+
