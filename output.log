@@ -1,11 +1,4 @@
 ['11.xlsx', '22.xlsx', '33.xlsx', '44.xlsx', '55.xlsx', '66.xlsx', '77.xlsx', '88.xlsx', '99.xlsx']
-2022-04-01 00:00:00
-2022-05-01 00:00:00
-2022-06-01 00:00:00
-2022-07-01 00:00:00
-2022-08-01 00:00:00
-2022-09-01 00:00:00
-2022-10-01 00:00:00
 
 G00QBL Forecast Replica:  APR 2022    1109.0
 MAY 2022    1128.0
@@ -26,13 +19,6 @@ OCT 2022    1331.0
 dtype: float64
 BATCH:  ('G00QBL', datetime.datetime(2023, 7, 5, 0, 0)) WO:  0
 
-2022-04-01 00:00:00
-2022-05-01 00:00:00
-2022-06-01 00:00:00
-2022-07-01 00:00:00
-2022-08-01 00:00:00
-2022-09-01 00:00:00
-2022-10-01 00:00:00
 
 G010YCB Forecast Replica:  APR 2022    1081.0
 MAY 2022    1128.0
@@ -42,9 +28,9 @@ AUG 2022    1319.0
 SEP 2022    1312.0
 OCT 2022    1331.0
 dtype: float64
-G010YCB Stock Amount:  28
-G010YCB Forecast Replica2:  APR 2022    1053.0
-MAY 2022    1128.0
+G010YCB Stock Amount:  1322
+G010YCB Forecast Replica2:  APR 2022       0.0
+MAY 2022     887.0
 JUN 2022    1190.0
 JUL 2022    1123.0
 AUG 2022    1319.0
@@ -53,25 +39,18 @@ OCT 2022    1331.0
 dtype: float64
 BATCH:  ('G010YCB', datetime.datetime(2023, 10, 4, 0, 0)) WO:  0
 
-2022-04-01 00:00:00
-2022-05-01 00:00:00
-2022-06-01 00:00:00
-2022-07-01 00:00:00
-2022-08-01 00:00:00
-2022-09-01 00:00:00
-2022-10-01 00:00:00
 
-G010YCA Forecast Replica:  APR 2022    1053.0
-MAY 2022    1128.0
+G010YCA Forecast Replica:  APR 2022       0.0
+MAY 2022     887.0
 JUN 2022    1190.0
 JUL 2022    1123.0
 AUG 2022    1319.0
 SEP 2022    1312.0
 OCT 2022    1331.0
 dtype: float64
-G010YCA Stock Amount:  28
-G010YCA Forecast Replica2:  APR 2022    1025.0
-MAY 2022    1128.0
+G010YCA Stock Amount:  825
+G010YCA Forecast Replica2:  APR 2022       0.0
+MAY 2022      62.0
 JUN 2022    1190.0
 JUL 2022    1123.0
 AUG 2022    1319.0
@@ -80,25 +59,18 @@ OCT 2022    1331.0
 dtype: float64
 BATCH:  ('G010YCA', datetime.datetime(2023, 10, 4, 0, 0)) WO:  0
 
-2022-04-01 00:00:00
-2022-05-01 00:00:00
-2022-06-01 00:00:00
-2022-07-01 00:00:00
-2022-08-01 00:00:00
-2022-09-01 00:00:00
-2022-10-01 00:00:00
 
-R-25698265 Forecast Replica:  APR 2022    1025.0
-MAY 2022    1128.0
+R-25698265 Forecast Replica:  APR 2022       0.0
+MAY 2022      62.0
 JUN 2022    1190.0
 JUL 2022    1123.0
 AUG 2022    1319.0
 SEP 2022    1312.0
 OCT 2022    1331.0
 dtype: float64
-R-25698265 Stock Amount:  28
-R-25698265 Forecast Replica2:  APR 2022     997.0
-MAY 2022    1128.0
+R-25698265 Stock Amount:  7
+R-25698265 Forecast Replica2:  APR 2022       0.0
+MAY 2022      55.0
 JUN 2022    1190.0
 JUL 2022    1123.0
 AUG 2022    1319.0
@@ -107,110 +79,68 @@ OCT 2022    1331.0
 dtype: float64
 BATCH:  ('R-25698265', datetime.datetime(9999, 4, 5, 0, 0)) WO:  0
 
-2022-04-01 00:00:00
-2022-05-01 00:00:00
-2022-06-01 00:00:00
-2022-07-01 00:00:00
-2022-08-01 00:00:00
-2022-09-01 00:00:00
-2022-10-01 00:00:00
 
 BA073621B Forecast Replica:  APR 2022    1211.0
 MAY 2022    1373.0
 JUN 2022    1219.0
 JUL 2022    1413.0
 dtype: float64
-BA073621B Stock Amount:  1653
-BA073621B Forecast Replica2:  APR 2022       0.0
-MAY 2022     931.0
+BA073621B Stock Amount:  578
+BA073621B Forecast Replica2:  APR 2022     633.0
+MAY 2022    1373.0
 JUN 2022    1219.0
 JUL 2022    1413.0
 dtype: float64
 BATCH:  ('BA073621B', datetime.datetime(2022, 7, 4, 0, 0)) WO:  0
 
-2022-04-01 00:00:00
-2022-05-01 00:00:00
-2022-06-01 00:00:00
-2022-07-01 00:00:00
-2022-08-01 00:00:00
-2022-09-01 00:00:00
-2022-10-01 00:00:00
 
-BA073621A Forecast Replica:  APR 2022       0.0
-MAY 2022     931.0
+BA073621A Forecast Replica:  APR 2022     633.0
+MAY 2022    1373.0
 JUN 2022    1219.0
 JUL 2022    1413.0
 dtype: float64
-BA073621A Stock Amount:  1653
+BA073621A Stock Amount:  776
 BA073621A Forecast Replica2:  APR 2022       0.0
-MAY 2022       0.0
-JUN 2022     497.0
+MAY 2022    1230.0
+JUN 2022    1219.0
 JUL 2022    1413.0
 dtype: float64
 BATCH:  ('BA073621A', datetime.datetime(2022, 7, 4, 0, 0)) WO:  0
 
-2022-04-01 00:00:00
-2022-05-01 00:00:00
-2022-06-01 00:00:00
-2022-07-01 00:00:00
-2022-08-01 00:00:00
-2022-09-01 00:00:00
-2022-10-01 00:00:00
 
 BA073621 Forecast Replica:  APR 2022       0.0
-MAY 2022       0.0
-JUN 2022     497.0
+MAY 2022    1230.0
+JUN 2022    1219.0
 JUL 2022    1413.0
 dtype: float64
 BA073621 Stock Amount:  1653
-BA073621 Forecast Replica2:  APR 2022      0.0
-MAY 2022      0.0
-JUN 2022      0.0
-JUL 2022    257.0
+BA073621 Forecast Replica2:  APR 2022       0.0
+MAY 2022       0.0
+JUN 2022     796.0
+JUL 2022    1413.0
 dtype: float64
 BATCH:  ('BA073621', datetime.datetime(2022, 7, 4, 0, 0)) WO:  0
 
-2022-04-01 00:00:00
-2022-05-01 00:00:00
-2022-06-01 00:00:00
-2022-07-01 00:00:00
-2022-08-01 00:00:00
-2022-09-01 00:00:00
-2022-10-01 00:00:00
 
 R-25697890 Forecast Replica:  APR 2022       0.0
 MAY 2022       0.0
-JUN 2022       0.0
-JUL 2022     257.0
+JUN 2022     796.0
+JUL 2022    1413.0
 AUG 2022    1430.0
 SEP 2022    1473.0
 OCT 2022    1534.0
 dtype: float64
-R-25697890 Stock Amount:  1653
+R-25697890 Stock Amount:  2
 R-25697890 Forecast Replica2:  APR 2022       0.0
 MAY 2022       0.0
-JUN 2022       0.0
-JUL 2022       0.0
-AUG 2022      34.0
+JUN 2022     794.0
+JUL 2022    1413.0
+AUG 2022    1430.0
 SEP 2022    1473.0
 OCT 2022    1534.0
 dtype: float64
 BATCH:  ('R-25697890', datetime.datetime(9999, 4, 5, 0, 0)) WO:  0
 
-2022-04-01 00:00:00
-2022-05-01 00:00:00
-2022-06-01 00:00:00
-2022-07-01 00:00:00
-2022-08-01 00:00:00
-2022-09-01 00:00:00
-2022-10-01 00:00:00
-2022-04-01 00:00:00
-2022-05-01 00:00:00
-2022-06-01 00:00:00
-2022-07-01 00:00:00
-2022-08-01 00:00:00
-2022-09-01 00:00:00
-2022-10-01 00:00:00
 
 G00X2P Forecast Replica:  APR 2022     6019.0
 MAY 2022     4987.0
@@ -231,13 +161,6 @@ OCT 2022     7880.0
 dtype: float64
 BATCH:  ('G00X2P', datetime.datetime(2023, 10, 4, 0, 0)) WO:  0
 
-2022-04-01 00:00:00
-2022-05-01 00:00:00
-2022-06-01 00:00:00
-2022-07-01 00:00:00
-2022-08-01 00:00:00
-2022-09-01 00:00:00
-2022-10-01 00:00:00
 
 G011NFB Forecast Replica:  APR 2022     3345.0
 MAY 2022     4987.0
@@ -247,9 +170,9 @@ AUG 2022     7336.0
 SEP 2022     7374.0
 OCT 2022     7880.0
 dtype: float64
-G011NFB Stock Amount:  2674
-G011NFB Forecast Replica2:  APR 2022      671.0
-MAY 2022     4987.0
+G011NFB Stock Amount:  3804
+G011NFB Forecast Replica2:  APR 2022        0.0
+MAY 2022     4528.0
 JUN 2022    19675.0
 JUL 2022     5067.0
 AUG 2022     7336.0
@@ -258,26 +181,19 @@ OCT 2022     7880.0
 dtype: float64
 BATCH:  ('G011NFB', datetime.datetime(2024, 4, 5, 0, 0)) WO:  0
 
-2022-04-01 00:00:00
-2022-05-01 00:00:00
-2022-06-01 00:00:00
-2022-07-01 00:00:00
-2022-08-01 00:00:00
-2022-09-01 00:00:00
-2022-10-01 00:00:00
 
-G011NFA Forecast Replica:  APR 2022      671.0
-MAY 2022     4987.0
+G011NFA Forecast Replica:  APR 2022        0.0
+MAY 2022     4528.0
 JUN 2022    19675.0
 JUL 2022     5067.0
 AUG 2022     7336.0
 SEP 2022     7374.0
 OCT 2022     7880.0
 dtype: float64
-G011NFA Stock Amount:  2674
+G011NFA Stock Amount:  6006
 G011NFA Forecast Replica2:  APR 2022        0.0
-MAY 2022     2984.0
-JUN 2022    19675.0
+MAY 2022        0.0
+JUN 2022    18197.0
 JUL 2022     5067.0
 AUG 2022     7336.0
 SEP 2022     7374.0
@@ -285,26 +201,19 @@ OCT 2022     7880.0
 dtype: float64
 BATCH:  ('G011NFA', datetime.datetime(2024, 4, 5, 0, 0)) WO:  0
 
-2022-04-01 00:00:00
-2022-05-01 00:00:00
-2022-06-01 00:00:00
-2022-07-01 00:00:00
-2022-08-01 00:00:00
-2022-09-01 00:00:00
-2022-10-01 00:00:00
 
 G011NF Forecast Replica:  APR 2022        0.0
-MAY 2022     2984.0
-JUN 2022    19675.0
+MAY 2022        0.0
+JUN 2022    18197.0
 JUL 2022     5067.0
 AUG 2022     7336.0
 SEP 2022     7374.0
 OCT 2022     7880.0
 dtype: float64
-G011NF Stock Amount:  2674
+G011NF Stock Amount:  339
 G011NF Forecast Replica2:  APR 2022        0.0
-MAY 2022      310.0
-JUN 2022    19675.0
+MAY 2022        0.0
+JUN 2022    17858.0
 JUL 2022     5067.0
 AUG 2022     7336.0
 SEP 2022     7374.0
@@ -312,26 +221,19 @@ OCT 2022     7880.0
 dtype: float64
 BATCH:  ('G011NF', datetime.datetime(2024, 4, 5, 0, 0)) WO:  0
 
-2022-04-01 00:00:00
-2022-05-01 00:00:00
-2022-06-01 00:00:00
-2022-07-01 00:00:00
-2022-08-01 00:00:00
-2022-09-01 00:00:00
-2022-10-01 00:00:00
 
 G0100NA Forecast Replica:  APR 2022        0.0
-MAY 2022      310.0
-JUN 2022    19675.0
+MAY 2022        0.0
+JUN 2022    17858.0
 JUL 2022     5067.0
 AUG 2022     7336.0
 SEP 2022     7374.0
 OCT 2022     7880.0
 dtype: float64
-G0100NA Stock Amount:  2674
+G0100NA Stock Amount:  6003
 G0100NA Forecast Replica2:  APR 2022        0.0
 MAY 2022        0.0
-JUN 2022    17311.0
+JUN 2022    11855.0
 JUL 2022     5067.0
 AUG 2022     7336.0
 SEP 2022     7374.0
@@ -339,100 +241,58 @@ OCT 2022     7880.0
 dtype: float64
 BATCH:  ('G0100NA', datetime.datetime(2024, 4, 5, 0, 0)) WO:  0
 
-2022-04-01 00:00:00
-2022-05-01 00:00:00
-2022-06-01 00:00:00
-2022-07-01 00:00:00
-2022-08-01 00:00:00
-2022-09-01 00:00:00
-2022-10-01 00:00:00
 
 G0100N Forecast Replica:  APR 2022        0.0
 MAY 2022        0.0
-JUN 2022    17311.0
+JUN 2022    11855.0
 JUL 2022     5067.0
 AUG 2022     7336.0
 SEP 2022     7374.0
 OCT 2022     7880.0
 dtype: float64
-G0100N Stock Amount:  2674
-G0100N Forecast Replica2:  APR 2022        0.0
-MAY 2022        0.0
-JUN 2022    14637.0
-JUL 2022     5067.0
-AUG 2022     7336.0
-SEP 2022     7374.0
-OCT 2022     7880.0
+G0100N Stock Amount:  6004
+G0100N Forecast Replica2:  APR 2022       0.0
+MAY 2022       0.0
+JUN 2022    5851.0
+JUL 2022    5067.0
+AUG 2022    7336.0
+SEP 2022    7374.0
+OCT 2022    7880.0
 dtype: float64
 BATCH:  ('G0100N', datetime.datetime(2024, 4, 5, 0, 0)) WO:  0
 
-2022-04-01 00:00:00
-2022-05-01 00:00:00
-2022-06-01 00:00:00
-2022-07-01 00:00:00
-2022-08-01 00:00:00
-2022-09-01 00:00:00
-2022-10-01 00:00:00
-2022-04-01 00:00:00
-2022-05-01 00:00:00
-2022-06-01 00:00:00
-2022-07-01 00:00:00
-2022-08-01 00:00:00
-2022-09-01 00:00:00
-2022-10-01 00:00:00
 
 P00554A Forecast Replica:  APR 2022    5180.0
 dtype: float64
-P00554A Stock Amount:  2534
-P00554A Forecast Replica2:  APR 2022    2646.0
+P00554A Stock Amount:  10068
+P00554A Forecast Replica2:  APR 2022    0.0
 dtype: float64
-BATCH:  ('P00554A', datetime.datetime(2022, 4, 5, 0, 0)) WO:  0
+BATCH:  ('P00554A', datetime.datetime(2022, 4, 5, 0, 0)) WO:  4888.0
 
-2022-04-01 00:00:00
-2022-05-01 00:00:00
-2022-06-01 00:00:00
-2022-07-01 00:00:00
-2022-08-01 00:00:00
-2022-09-01 00:00:00
-2022-10-01 00:00:00
 
-P00552A Forecast Replica:  APR 2022    2646.0
+P00552A Forecast Replica:  APR 2022    0.0
 dtype: float64
-P00552A Stock Amount:  2534
-P00552A Forecast Replica2:  APR 2022    112.0
+P00552A Stock Amount:  6396
+P00552A Forecast Replica2:  APR 2022    0.0
 dtype: float64
-BATCH:  ('P00552A', datetime.datetime(2022, 4, 5, 0, 0)) WO:  0
+BATCH:  ('P00552A', datetime.datetime(2022, 4, 5, 0, 0)) WO:  6396.0
 
-2022-04-01 00:00:00
-2022-05-01 00:00:00
-2022-06-01 00:00:00
-2022-07-01 00:00:00
-2022-08-01 00:00:00
-2022-09-01 00:00:00
-2022-10-01 00:00:00
 
-P00560AA Forecast Replica:  APR 2022     112.0
+P00560AA Forecast Replica:  APR 2022       0.0
 MAY 2022    6405.0
 JUN 2022    5576.0
 JUL 2022    6500.0
 AUG 2022    6200.0
 dtype: float64
-P00560AA Stock Amount:  2534
+P00560AA Stock Amount:  7495
 P00560AA Forecast Replica2:  APR 2022       0.0
-MAY 2022    3983.0
-JUN 2022    5576.0
+MAY 2022       0.0
+JUN 2022    4486.0
 JUL 2022    6500.0
 AUG 2022    6200.0
 dtype: float64
 BATCH:  ('P00560AA', datetime.datetime(2022, 8, 3, 0, 0)) WO:  0
 
-2022-04-01 00:00:00
-2022-05-01 00:00:00
-2022-06-01 00:00:00
-2022-07-01 00:00:00
-2022-08-01 00:00:00
-2022-09-01 00:00:00
-2022-10-01 00:00:00
 
 N2100161A Forecast Replica:  APR 2022    213.0
 MAY 2022    242.0
@@ -442,9 +302,9 @@ AUG 2022    276.0
 SEP 2022    292.0
 OCT 2022    298.0
 dtype: float64
-N2100161A Stock Amount:  48
-N2100161A Forecast Replica2:  APR 2022    165.0
-MAY 2022    242.0
+N2100161A Stock Amount:  361
+N2100161A Forecast Replica2:  APR 2022      0.0
+MAY 2022     94.0
 JUN 2022    255.0
 JUL 2022    260.0
 AUG 2022    276.0
@@ -453,16 +313,9 @@ OCT 2022    298.0
 dtype: float64
 BATCH:  ('N2100161A', datetime.datetime(2022, 12, 4, 0, 0)) WO:  0
 
-2022-04-01 00:00:00
-2022-05-01 00:00:00
-2022-06-01 00:00:00
-2022-07-01 00:00:00
-2022-08-01 00:00:00
-2022-09-01 00:00:00
-2022-10-01 00:00:00
 
-N2100161 Forecast Replica:  APR 2022    165.0
-MAY 2022    242.0
+N2100161 Forecast Replica:  APR 2022      0.0
+MAY 2022     94.0
 JUN 2022    255.0
 JUL 2022    260.0
 AUG 2022    276.0
@@ -470,8 +323,8 @@ SEP 2022    292.0
 OCT 2022    298.0
 dtype: float64
 N2100161 Stock Amount:  48
-N2100161 Forecast Replica2:  APR 2022    117.0
-MAY 2022    242.0
+N2100161 Forecast Replica2:  APR 2022      0.0
+MAY 2022     46.0
 JUN 2022    255.0
 JUL 2022    260.0
 AUG 2022    276.0
@@ -480,47 +333,26 @@ OCT 2022    298.0
 dtype: float64
 BATCH:  ('N2100161', datetime.datetime(2022, 12, 4, 0, 0)) WO:  0
 
-2022-04-01 00:00:00
-2022-05-01 00:00:00
-2022-06-01 00:00:00
-2022-07-01 00:00:00
-2022-08-01 00:00:00
-2022-09-01 00:00:00
-2022-10-01 00:00:00
 
-N2100414 Forecast Replica:  APR 2022    117.0
-MAY 2022    242.0
+N2100414 Forecast Replica:  APR 2022      0.0
+MAY 2022     46.0
 JUN 2022    255.0
 JUL 2022    260.0
 AUG 2022    276.0
 SEP 2022    292.0
 OCT 2022    298.0
 dtype: float64
-N2100414 Stock Amount:  48
-N2100414 Forecast Replica2:  APR 2022     69.0
-MAY 2022    242.0
-JUN 2022    255.0
-JUL 2022    260.0
+N2100414 Stock Amount:  441
+N2100414 Forecast Replica2:  APR 2022      0.0
+MAY 2022      0.0
+JUN 2022      0.0
+JUL 2022    120.0
 AUG 2022    276.0
 SEP 2022    292.0
 OCT 2022    298.0
 dtype: float64
 BATCH:  ('N2100414', datetime.datetime(2023, 4, 5, 0, 0)) WO:  0
 
-2022-04-01 00:00:00
-2022-05-01 00:00:00
-2022-06-01 00:00:00
-2022-07-01 00:00:00
-2022-08-01 00:00:00
-2022-09-01 00:00:00
-2022-10-01 00:00:00
-2022-04-01 00:00:00
-2022-05-01 00:00:00
-2022-06-01 00:00:00
-2022-07-01 00:00:00
-2022-08-01 00:00:00
-2022-09-01 00:00:00
-2022-10-01 00:00:00
 
 N2100161 Forecast Replica:  APR 2022    0.0
 MAY 2022    0.0
@@ -530,7 +362,7 @@ AUG 2022    0.0
 SEP 2022    0.0
 OCT 2022    0.0
 dtype: float64
-N2100161 Stock Amount:  1
+N2100161 Stock Amount:  10
 N2100161 Forecast Replica2:  APR 2022    0.0
 MAY 2022    0.0
 JUN 2022    0.0
@@ -539,15 +371,8 @@ AUG 2022    0.0
 SEP 2022    0.0
 OCT 2022    0.0
 dtype: float64
-BATCH:  ('N2100161', datetime.datetime(2023, 8, 31, 0, 0)) WO:  1.0
+BATCH:  ('N2100161', datetime.datetime(2023, 8, 31, 0, 0)) WO:  10.0
 
-2022-04-01 00:00:00
-2022-05-01 00:00:00
-2022-06-01 00:00:00
-2022-07-01 00:00:00
-2022-08-01 00:00:00
-2022-09-01 00:00:00
-2022-10-01 00:00:00
 
 G012Y1 Forecast Replica:  APR 2022     9.0
 MAY 2022    10.0
@@ -568,13 +393,6 @@ OCT 2022    17.0
 dtype: float64
 BATCH:  ('G012Y1', datetime.datetime(2023, 5, 6, 0, 0)) WO:  0
 
-2022-04-01 00:00:00
-2022-05-01 00:00:00
-2022-06-01 00:00:00
-2022-07-01 00:00:00
-2022-08-01 00:00:00
-2022-09-01 00:00:00
-2022-10-01 00:00:00
 
 C21104 Forecast Replica:  APR 2022    570.0
 MAY 2022    645.0
@@ -595,20 +413,6 @@ OCT 2022    850.0
 dtype: float64
 BATCH:  ('C21104', datetime.datetime(2023, 6, 3, 0, 0)) WO:  0
 
-2022-04-01 00:00:00
-2022-05-01 00:00:00
-2022-06-01 00:00:00
-2022-07-01 00:00:00
-2022-08-01 00:00:00
-2022-09-01 00:00:00
-2022-10-01 00:00:00
-2022-04-01 00:00:00
-2022-05-01 00:00:00
-2022-06-01 00:00:00
-2022-07-01 00:00:00
-2022-08-01 00:00:00
-2022-09-01 00:00:00
-2022-10-01 00:00:00
 
 BA073150 Forecast Replica:  APR 2022    3078.0
 MAY 2022    3314.0
@@ -623,13 +427,6 @@ JUL 2022    3053.0
 dtype: float64
 BATCH:  ('BA073150', datetime.datetime(2022, 7, 4, 0, 0)) WO:  0
 
-2022-04-01 00:00:00
-2022-05-01 00:00:00
-2022-06-01 00:00:00
-2022-07-01 00:00:00
-2022-08-01 00:00:00
-2022-09-01 00:00:00
-2022-10-01 00:00:00
 
 BA074632 Forecast Replica:  APR 2022    1856.0
 MAY 2022    3314.0
@@ -637,29 +434,15 @@ JUN 2022    3394.0
 JUL 2022    3053.0
 AUG 2022    3100.0
 dtype: float64
-BA074632 Stock Amount:  1222
-BA074632 Forecast Replica2:  APR 2022     634.0
-MAY 2022    3314.0
+BA074632 Stock Amount:  4850
+BA074632 Forecast Replica2:  APR 2022       0.0
+MAY 2022     320.0
 JUN 2022    3394.0
 JUL 2022    3053.0
 AUG 2022    3100.0
 dtype: float64
 BATCH:  ('BA074632', datetime.datetime(2022, 8, 3, 0, 0)) WO:  0
 
-2022-04-01 00:00:00
-2022-05-01 00:00:00
-2022-06-01 00:00:00
-2022-07-01 00:00:00
-2022-08-01 00:00:00
-2022-09-01 00:00:00
-2022-10-01 00:00:00
-2022-04-01 00:00:00
-2022-05-01 00:00:00
-2022-06-01 00:00:00
-2022-07-01 00:00:00
-2022-08-01 00:00:00
-2022-09-01 00:00:00
-2022-10-01 00:00:00
 
 BA074397 Forecast Replica:  APR 2022    485.0
 MAY 2022    468.0
@@ -667,22 +450,15 @@ JUN 2022    390.0
 JUL 2022    458.0
 AUG 2022    470.0
 dtype: float64
-BA074397 Stock Amount:  721
+BA074397 Stock Amount:  1103
 BA074397 Forecast Replica2:  APR 2022      0.0
-MAY 2022    232.0
-JUN 2022    390.0
+MAY 2022      0.0
+JUN 2022    240.0
 JUL 2022    458.0
 AUG 2022    470.0
 dtype: float64
 BATCH:  ('BA074397', datetime.datetime(2022, 8, 3, 0, 0)) WO:  0
 
-2022-04-01 00:00:00
-2022-05-01 00:00:00
-2022-06-01 00:00:00
-2022-07-01 00:00:00
-2022-08-01 00:00:00
-2022-09-01 00:00:00
-2022-10-01 00:00:00
 
 BA071946 Forecast Replica:  APR 2022    2170.0
 MAY 2022    1991.0
@@ -695,184 +471,86 @@ JUN 2022    1874.0
 dtype: float64
 BATCH:  ('BA071946', datetime.datetime(2022, 6, 3, 0, 0)) WO:  0
 
-2022-04-01 00:00:00
-2022-05-01 00:00:00
-2022-06-01 00:00:00
-2022-07-01 00:00:00
-2022-08-01 00:00:00
-2022-09-01 00:00:00
-2022-10-01 00:00:00
 
 BA073908 Forecast Replica:  APR 2022     582.0
 MAY 2022    1991.0
 JUN 2022    1874.0
 JUL 2022    1784.0
 dtype: float64
-BA073908 Stock Amount:  1588
+BA073908 Stock Amount:  1923
 BA073908 Forecast Replica2:  APR 2022       0.0
-MAY 2022     985.0
+MAY 2022     650.0
 JUN 2022    1874.0
 JUL 2022    1784.0
 dtype: float64
 BATCH:  ('BA073908', datetime.datetime(2022, 7, 4, 0, 0)) WO:  0
 
-2022-04-01 00:00:00
-2022-05-01 00:00:00
-2022-06-01 00:00:00
-2022-07-01 00:00:00
-2022-08-01 00:00:00
-2022-09-01 00:00:00
-2022-10-01 00:00:00
 
 BA073148A Forecast Replica:  APR 2022       0.0
-MAY 2022     985.0
+MAY 2022     650.0
 JUN 2022    1874.0
 JUL 2022    1784.0
 dtype: float64
-BA073148A Stock Amount:  1588
+BA073148A Stock Amount:  2199
 BA073148A Forecast Replica2:  APR 2022       0.0
 MAY 2022       0.0
-JUN 2022    1271.0
+JUN 2022     325.0
 JUL 2022    1784.0
 dtype: float64
 BATCH:  ('BA073148A', datetime.datetime(2022, 7, 4, 0, 0)) WO:  0
 
-2022-04-01 00:00:00
-2022-05-01 00:00:00
-2022-06-01 00:00:00
-2022-07-01 00:00:00
-2022-08-01 00:00:00
-2022-09-01 00:00:00
-2022-10-01 00:00:00
-2022-04-01 00:00:00
-2022-05-01 00:00:00
-2022-06-01 00:00:00
-2022-07-01 00:00:00
-2022-08-01 00:00:00
-2022-09-01 00:00:00
-2022-10-01 00:00:00
-2022-04-01 00:00:00
-2022-05-01 00:00:00
-2022-06-01 00:00:00
-2022-07-01 00:00:00
-2022-08-01 00:00:00
-2022-09-01 00:00:00
-2022-10-01 00:00:00
-2022-04-01 00:00:00
-2022-05-01 00:00:00
-2022-06-01 00:00:00
-2022-07-01 00:00:00
-2022-08-01 00:00:00
-2022-09-01 00:00:00
-2022-10-01 00:00:00
-2022-04-01 00:00:00
-2022-05-01 00:00:00
-2022-06-01 00:00:00
-2022-07-01 00:00:00
-2022-08-01 00:00:00
-2022-09-01 00:00:00
-2022-10-01 00:00:00
-2022-04-01 00:00:00
-2022-05-01 00:00:00
-2022-06-01 00:00:00
-2022-07-01 00:00:00
-2022-08-01 00:00:00
-2022-09-01 00:00:00
-2022-10-01 00:00:00
-2022-04-01 00:00:00
-2022-05-01 00:00:00
-2022-06-01 00:00:00
-2022-07-01 00:00:00
-2022-08-01 00:00:00
-2022-09-01 00:00:00
-2022-10-01 00:00:00
 
 BA073581 Forecast Replica:  APR 2022    1673.0
 MAY 2022    1838.0
 JUN 2022    1771.0
 dtype: float64
-BA073581 Stock Amount:  2
-BA073581 Forecast Replica2:  APR 2022    1671.0
-MAY 2022    1838.0
+BA073581 Stock Amount:  2624
+BA073581 Forecast Replica2:  APR 2022       0.0
+MAY 2022     887.0
 JUN 2022    1771.0
 dtype: float64
 BATCH:  ('BA073581', datetime.datetime(2022, 6, 3, 0, 0)) WO:  0
 
-2022-04-01 00:00:00
-2022-05-01 00:00:00
-2022-06-01 00:00:00
-2022-07-01 00:00:00
-2022-08-01 00:00:00
-2022-09-01 00:00:00
-2022-10-01 00:00:00
 
-BA072137 Forecast Replica:  APR 2022    1671.0
-MAY 2022    1838.0
+BA072137 Forecast Replica:  APR 2022       0.0
+MAY 2022     887.0
 JUN 2022    1771.0
 dtype: float64
-BA072137 Stock Amount:  2
-BA072137 Forecast Replica2:  APR 2022    1669.0
-MAY 2022    1838.0
-JUN 2022    1771.0
+BA072137 Stock Amount:  2330
+BA072137 Forecast Replica2:  APR 2022      0.0
+MAY 2022      0.0
+JUN 2022    328.0
 dtype: float64
 BATCH:  ('BA072137', datetime.datetime(2022, 6, 3, 0, 0)) WO:  0
 
-2022-04-01 00:00:00
-2022-05-01 00:00:00
-2022-06-01 00:00:00
-2022-07-01 00:00:00
-2022-08-01 00:00:00
-2022-09-01 00:00:00
-2022-10-01 00:00:00
-2022-04-01 00:00:00
-2022-05-01 00:00:00
-2022-06-01 00:00:00
-2022-07-01 00:00:00
-2022-08-01 00:00:00
-2022-09-01 00:00:00
-2022-10-01 00:00:00
 
 BA073352 Forecast Replica:  APR 2022    6852.0
 MAY 2022    8369.0
 JUN 2022    7713.0
 JUL 2022    7747.0
 dtype: float64
-BA073352 Stock Amount:  58
-BA073352 Forecast Replica2:  APR 2022    6794.0
-MAY 2022    8369.0
+BA073352 Stock Amount:  8541
+BA073352 Forecast Replica2:  APR 2022       0.0
+MAY 2022    6680.0
 JUN 2022    7713.0
 JUL 2022    7747.0
 dtype: float64
 BATCH:  ('BA073352', datetime.datetime(2022, 7, 4, 0, 0)) WO:  0
 
-2022-04-01 00:00:00
-2022-05-01 00:00:00
-2022-06-01 00:00:00
-2022-07-01 00:00:00
-2022-08-01 00:00:00
-2022-09-01 00:00:00
-2022-10-01 00:00:00
 
-BA073061A Forecast Replica:  APR 2022    6794.0
-MAY 2022    8369.0
+BA073061A Forecast Replica:  APR 2022       0.0
+MAY 2022    6680.0
 JUN 2022    7713.0
 JUL 2022    7747.0
 dtype: float64
-BA073061A Stock Amount:  58
-BA073061A Forecast Replica2:  APR 2022    6736.0
-MAY 2022    8369.0
+BA073061A Stock Amount:  4287
+BA073061A Forecast Replica2:  APR 2022       0.0
+MAY 2022    2393.0
 JUN 2022    7713.0
 JUL 2022    7747.0
 dtype: float64
 BATCH:  ('BA073061A', datetime.datetime(2022, 7, 4, 0, 0)) WO:  0
 
-2022-04-01 00:00:00
-2022-05-01 00:00:00
-2022-06-01 00:00:00
-2022-07-01 00:00:00
-2022-08-01 00:00:00
-2022-09-01 00:00:00
-2022-10-01 00:00:00
 
 BA072478 Forecast Replica:  APR 2022    5.0
 MAY 2022    5.0
@@ -889,13 +567,6 @@ AUG 2022    6.0
 dtype: float64
 BATCH:  ('BA072478', datetime.datetime(2022, 9, 1, 0, 0)) WO:  0
 
-2022-04-01 00:00:00
-2022-05-01 00:00:00
-2022-06-01 00:00:00
-2022-07-01 00:00:00
-2022-08-01 00:00:00
-2022-09-01 00:00:00
-2022-10-01 00:00:00
 
 BA073003 Forecast Replica:  APR 2022    0.0
 MAY 2022    1.0
@@ -905,174 +576,47 @@ AUG 2022    6.0
 SEP 2022    8.0
 OCT 2022    8.0
 dtype: float64
-BA073003 Stock Amount:  9
+BA073003 Stock Amount:  15
 BA073003 Forecast Replica2:  APR 2022    0.0
 MAY 2022    0.0
 JUN 2022    0.0
-JUL 2022    2.0
-AUG 2022    6.0
+JUL 2022    0.0
+AUG 2022    2.0
 SEP 2022    8.0
 OCT 2022    8.0
 dtype: float64
 BATCH:  ('BA073003', datetime.datetime(2022, 11, 2, 0, 0)) WO:  0
 
-2022-04-01 00:00:00
-2022-05-01 00:00:00
-2022-06-01 00:00:00
-2022-07-01 00:00:00
-2022-08-01 00:00:00
-2022-09-01 00:00:00
-2022-10-01 00:00:00
-2022-04-01 00:00:00
-2022-05-01 00:00:00
-2022-06-01 00:00:00
-2022-07-01 00:00:00
-2022-08-01 00:00:00
-2022-09-01 00:00:00
-2022-10-01 00:00:00
-2022-04-01 00:00:00
-2022-05-01 00:00:00
-2022-06-01 00:00:00
-2022-07-01 00:00:00
-2022-08-01 00:00:00
-2022-09-01 00:00:00
-2022-10-01 00:00:00
-2022-04-01 00:00:00
-2022-05-01 00:00:00
-2022-06-01 00:00:00
-2022-07-01 00:00:00
-2022-08-01 00:00:00
-2022-09-01 00:00:00
-2022-10-01 00:00:00
-2022-04-01 00:00:00
-2022-05-01 00:00:00
-2022-06-01 00:00:00
-2022-07-01 00:00:00
-2022-08-01 00:00:00
-2022-09-01 00:00:00
-2022-10-01 00:00:00
 
 BA071454 Forecast Replica:  APR 2022    181.0
 MAY 2022    160.0
 dtype: float64
-BA071454 Stock Amount:  16
-BA071454 Forecast Replica2:  APR 2022    165.0
-MAY 2022    160.0
+BA071454 Stock Amount:  444
+BA071454 Forecast Replica2:  APR 2022    0.0
+MAY 2022    0.0
 dtype: float64
-BATCH:  ('BA071454', datetime.datetime(2022, 5, 6, 0, 0)) WO:  0
+BATCH:  ('BA071454', datetime.datetime(2022, 5, 6, 0, 0)) WO:  103.0
 
-2022-04-01 00:00:00
-2022-05-01 00:00:00
-2022-06-01 00:00:00
-2022-07-01 00:00:00
-2022-08-01 00:00:00
-2022-09-01 00:00:00
-2022-10-01 00:00:00
-2022-04-01 00:00:00
-2022-05-01 00:00:00
-2022-06-01 00:00:00
-2022-07-01 00:00:00
-2022-08-01 00:00:00
-2022-09-01 00:00:00
-2022-10-01 00:00:00
-2022-04-01 00:00:00
-2022-05-01 00:00:00
-2022-06-01 00:00:00
-2022-07-01 00:00:00
-2022-08-01 00:00:00
-2022-09-01 00:00:00
-2022-10-01 00:00:00
-2022-04-01 00:00:00
-2022-05-01 00:00:00
-2022-06-01 00:00:00
-2022-07-01 00:00:00
-2022-08-01 00:00:00
-2022-09-01 00:00:00
-2022-10-01 00:00:00
-2022-04-01 00:00:00
-2022-05-01 00:00:00
-2022-06-01 00:00:00
-2022-07-01 00:00:00
-2022-08-01 00:00:00
-2022-09-01 00:00:00
-2022-10-01 00:00:00
-2022-04-01 00:00:00
-2022-05-01 00:00:00
-2022-06-01 00:00:00
-2022-07-01 00:00:00
-2022-08-01 00:00:00
-2022-09-01 00:00:00
-2022-10-01 00:00:00
-2022-04-01 00:00:00
-2022-05-01 00:00:00
-2022-06-01 00:00:00
-2022-07-01 00:00:00
-2022-08-01 00:00:00
-2022-09-01 00:00:00
-2022-10-01 00:00:00
-2022-04-01 00:00:00
-2022-05-01 00:00:00
-2022-06-01 00:00:00
-2022-07-01 00:00:00
-2022-08-01 00:00:00
-2022-09-01 00:00:00
-2022-10-01 00:00:00
-2022-04-01 00:00:00
-2022-05-01 00:00:00
-2022-06-01 00:00:00
-2022-07-01 00:00:00
-2022-08-01 00:00:00
-2022-09-01 00:00:00
-2022-10-01 00:00:00
 
 AU032790 Forecast Replica:  APR 2022    1167.0
 MAY 2022    1282.0
 dtype: float64
-AU032790 Stock Amount:  3077
-AU032790 Forecast Replica2:  APR 2022    0.0
-MAY 2022    0.0
+AU032790 Stock Amount:  858
+AU032790 Forecast Replica2:  APR 2022     309.0
+MAY 2022    1282.0
 dtype: float64
-BATCH:  ('AU032790', datetime.datetime(2022, 5, 6, 0, 0)) WO:  628.0
+BATCH:  ('AU032790', datetime.datetime(2022, 5, 6, 0, 0)) WO:  0
 
-('AU029342', datetime.datetime(2022, 1, 5, 0, 0))
-('AU029342', datetime.datetime(2022, 1, 5, 0, 0))
-2022-04-01 00:00:00
-('AU029342', datetime.datetime(2022, 1, 5, 0, 0))
-2022-05-01 00:00:00
-('AU029342', datetime.datetime(2022, 1, 5, 0, 0))
-2022-06-01 00:00:00
-('AU029342', datetime.datetime(2022, 1, 5, 0, 0))
-2022-07-01 00:00:00
-('AU029342', datetime.datetime(2022, 1, 5, 0, 0))
-2022-08-01 00:00:00
-('AU029342', datetime.datetime(2022, 1, 5, 0, 0))
-2022-09-01 00:00:00
-('AU029342', datetime.datetime(2022, 1, 5, 0, 0))
-2022-10-01 00:00:00
-2022-04-01 00:00:00
-2022-05-01 00:00:00
-2022-06-01 00:00:00
-2022-07-01 00:00:00
-2022-08-01 00:00:00
-2022-09-01 00:00:00
-2022-10-01 00:00:00
 
 AU032525 Forecast Replica:  APR 2022    50.0
 MAY 2022     0.0
 dtype: float64
-AU032525 Stock Amount:  14
-AU032525 Forecast Replica2:  APR 2022    36.0
-MAY 2022     0.0
+AU032525 Stock Amount:  235
+AU032525 Forecast Replica2:  APR 2022    0.0
+MAY 2022    0.0
 dtype: float64
-BATCH:  ('AU032525', datetime.datetime(2022, 5, 5, 0, 0)) WO:  0
+BATCH:  ('AU032525', datetime.datetime(2022, 5, 5, 0, 0)) WO:  185.0
 
-2022-04-01 00:00:00
-2022-05-01 00:00:00
-2022-06-01 00:00:00
-2022-07-01 00:00:00
-2022-08-01 00:00:00
-2022-09-01 00:00:00
-2022-10-01 00:00:00
 
 AU032025 Forecast Replica:  APR 2022    1015.0
 MAY 2022    1200.0
@@ -1082,9 +626,9 @@ AUG 2022    1520.0
 SEP 2022    1633.0
 OCT 2022    1625.0
 dtype: float64
-AU032025 Stock Amount:  2068
+AU032025 Stock Amount:  1280
 AU032025 Forecast Replica2:  APR 2022       0.0
-MAY 2022     147.0
+MAY 2022     935.0
 JUN 2022    1432.0
 JUL 2022    1416.0
 AUG 2022    1520.0
@@ -1093,45 +637,31 @@ OCT 2022    1625.0
 dtype: float64
 BATCH:  ('AU032025', datetime.datetime(2023, 2, 3, 0, 0)) WO:  0
 
-2022-04-01 00:00:00
-2022-05-01 00:00:00
-2022-06-01 00:00:00
-2022-07-01 00:00:00
-2022-08-01 00:00:00
-2022-09-01 00:00:00
-2022-10-01 00:00:00
 
 AU031705A Forecast Replica:  APR 2022       0.0
-MAY 2022     147.0
+MAY 2022     935.0
 JUN 2022    1432.0
 JUL 2022    1416.0
 AUG 2022    1520.0
 SEP 2022    1633.0
 OCT 2022    1625.0
 dtype: float64
-AU031705A Stock Amount:  2068
+AU031705A Stock Amount:  227
 AU031705A Forecast Replica2:  APR 2022       0.0
-MAY 2022       0.0
-JUN 2022       0.0
-JUL 2022     927.0
+MAY 2022     708.0
+JUN 2022    1432.0
+JUL 2022    1416.0
 AUG 2022    1520.0
 SEP 2022    1633.0
 OCT 2022    1625.0
 dtype: float64
 BATCH:  ('AU031705A', datetime.datetime(2023, 2, 3, 0, 0)) WO:  0
 
-2022-04-01 00:00:00
-2022-05-01 00:00:00
-2022-06-01 00:00:00
-2022-07-01 00:00:00
-2022-08-01 00:00:00
-2022-09-01 00:00:00
-2022-10-01 00:00:00
 
 AU031705 Forecast Replica:  APR 2022       0.0
-MAY 2022       0.0
-JUN 2022       0.0
-JUL 2022     927.0
+MAY 2022     708.0
+JUN 2022    1432.0
+JUL 2022    1416.0
 AUG 2022    1520.0
 SEP 2022    1633.0
 OCT 2022    1625.0
@@ -1139,47 +669,33 @@ dtype: float64
 AU031705 Stock Amount:  2068
 AU031705 Forecast Replica2:  APR 2022       0.0
 MAY 2022       0.0
-JUN 2022       0.0
-JUL 2022       0.0
-AUG 2022     379.0
+JUN 2022      72.0
+JUL 2022    1416.0
+AUG 2022    1520.0
 SEP 2022    1633.0
 OCT 2022    1625.0
 dtype: float64
 BATCH:  ('AU031705', datetime.datetime(2023, 2, 3, 0, 0)) WO:  0
 
-2022-04-01 00:00:00
-2022-05-01 00:00:00
-2022-06-01 00:00:00
-2022-07-01 00:00:00
-2022-08-01 00:00:00
-2022-09-01 00:00:00
-2022-10-01 00:00:00
 
 AU031827A Forecast Replica:  APR 2022    10.0
 MAY 2022    10.0
 JUN 2022     8.0
 JUL 2022     9.0
 dtype: float64
-AU031827A Stock Amount:  49
+AU031827A Stock Amount:  33
 AU031827A Forecast Replica2:  APR 2022    0.0
 MAY 2022    0.0
 JUN 2022    0.0
-JUL 2022    0.0
+JUL 2022    4.0
 dtype: float64
-BATCH:  ('AU031827A', datetime.datetime(2022, 7, 2, 0, 0)) WO:  12.0
+BATCH:  ('AU031827A', datetime.datetime(2022, 7, 2, 0, 0)) WO:  0
 
-2022-04-01 00:00:00
-2022-05-01 00:00:00
-2022-06-01 00:00:00
-2022-07-01 00:00:00
-2022-08-01 00:00:00
-2022-09-01 00:00:00
-2022-10-01 00:00:00
 
 AU031827 Forecast Replica:  APR 2022    0.0
 MAY 2022    0.0
 JUN 2022    0.0
-JUL 2022    0.0
+JUL 2022    4.0
 dtype: float64
 AU031827 Stock Amount:  49
 AU031827 Forecast Replica2:  APR 2022    0.0
@@ -1187,15 +703,8 @@ MAY 2022    0.0
 JUN 2022    0.0
 JUL 2022    0.0
 dtype: float64
-BATCH:  ('AU031827', datetime.datetime(2022, 7, 2, 0, 0)) WO:  49.0
+BATCH:  ('AU031827', datetime.datetime(2022, 7, 2, 0, 0)) WO:  45.0
 
-2022-04-01 00:00:00
-2022-05-01 00:00:00
-2022-06-01 00:00:00
-2022-07-01 00:00:00
-2022-08-01 00:00:00
-2022-09-01 00:00:00
-2022-10-01 00:00:00
 {'Stock Amount': 7, 'Plant': 'BR08', 'Batch status key': '8.0', 'Blocked': '', 'Shelf life': '9999-12-31', 'Days': -2913703, 'Month': -97123.4, 'Limit sales date': '9999-04-05', 'Write off': 0}
 {'Stock Amount': 1322, 'Plant': 'BR01', 'Batch status key': '4.0', 'Blocked': '', 'Shelf life': '2024-06-30', 'Days': -711, 'Month': -23.7, 'Limit sales date': '2023-10-04', 'Write off': 0}
 {'Stock Amount': 825, 'Plant': 'BR08', 'Batch status key': '0.0', 'Blocked': '', 'Shelf life': '2024-06-30', 'Days': -711, 'Month': -23.7, 'Limit sales date': '2023-10-04', 'Write off': 0}
@@ -1212,13 +721,13 @@ BATCH:  ('AU031827', datetime.datetime(2022, 7, 2, 0, 0)) WO:  49.0
 {'Stock Amount': 6004, 'Plant': 'BR08', 'Batch status key': '0.0', 'Blocked': '', 'Shelf life': '2024-12-31', 'Days': -895, 'Month': -29.8, 'Limit sales date': '2024-04-05', 'Write off': 0}
 {'Stock Amount': 2674, 'Plant': 'BR08', 'Batch status key': '0.0', 'Blocked': '', 'Shelf life': '2024-06-30', 'Days': -711, 'Month': -23.7, 'Limit sales date': '2023-10-04', 'Write off': 0}
 {'Stock Amount': 7495, 'Plant': 'BR01', 'Batch status key': '4.0', 'Blocked': '', 'Shelf life': '2023-04-30', 'Days': -284, 'Month': -9.5, 'Limit sales date': '2022-08-03', 'Write off': 0}
-{'Stock Amount': 10068, 'Plant': 'BR01', 'Batch status key': '3.0', 'Blocked': '', 'Shelf life': '2022-12-31', 'Days': -164, 'Month': -5.5, 'Limit sales date': '2022-04-05', 'Write off': 0}
-{'Stock Amount': 6396, 'Plant': 'BR08', 'Batch status key': '0.0', 'Blocked': '', 'Shelf life': '2022-12-31', 'Days': -164, 'Month': -5.5, 'Limit sales date': '2022-04-05', 'Write off': 0}
+{'Stock Amount': 10068, 'Plant': 'BR01', 'Batch status key': '3.0', 'Blocked': '', 'Shelf life': '2022-12-31', 'Days': -164, 'Month': -5.5, 'Limit sales date': '2022-04-05', 'Write off': 4888.0}
+{'Stock Amount': 6396, 'Plant': 'BR08', 'Batch status key': '0.0', 'Blocked': '', 'Shelf life': '2022-12-31', 'Days': -164, 'Month': -5.5, 'Limit sales date': '2022-04-05', 'Write off': 6396.0}
 {'Stock Amount': 2534, 'Plant': 'BR01', 'Batch status key': '3.0', 'Blocked': '', 'Shelf life': '2022-08-31', 'Days': -42, 'Month': -1.4, 'Limit sales date': '2021-12-04', 'Write off': 2534}
 {'Stock Amount': 441, 'Plant': 'BR01', 'Batch status key': '4.0', 'Blocked': '', 'Shelf life': '2023-12-31', 'Days': -529, 'Month': -17.6, 'Limit sales date': '2023-04-05', 'Write off': 0}
 {'Stock Amount': 361, 'Plant': 'BR08', 'Batch status key': '0.0', 'Blocked': '', 'Shelf life': '2023-08-31', 'Days': -407, 'Month': -13.6, 'Limit sales date': '2022-12-04', 'Write off': 0}
 {'Stock Amount': 48, 'Plant': 'BR08', 'Batch status key': '0.0', 'Blocked': '', 'Shelf life': '2023-08-31', 'Days': -407, 'Month': -13.6, 'Limit sales date': '2022-12-04', 'Write off': 0}
-{'Stock Amount': 10, 'Plant': 'BR08', 'Batch status key': '0.0', 'Blocked': '', 'Shelf life': '2023-08-31', 'Days': -407, 'Month': -13.6, 'Limit sales date': '2023-08-31', 'Write off': 1.0}
+{'Stock Amount': 10, 'Plant': 'BR08', 'Batch status key': '0.0', 'Blocked': '', 'Shelf life': '2023-08-31', 'Days': -407, 'Month': -13.6, 'Limit sales date': '2023-08-31', 'Write off': 10.0}
 {'Stock Amount': 1, 'Plant': 'BR08', 'Batch status key': '6.0', 'Blocked': '', 'Shelf life': '2021-04-30', 'Days': 446, 'Month': 14.9, 'Limit sales date': '2021-04-30', 'Write off': 1}
 {'Stock Amount': 44, 'Plant': 'BR08', 'Batch status key': '0.0', 'Blocked': '', 'Shelf life': '2024-01-31', 'Days': -560, 'Month': -18.7, 'Limit sales date': '2023-05-06', 'Write off': 0}
 {'Stock Amount': 4327, 'Plant': 'BR08', 'Batch status key': '0.0', 'Blocked': '', 'Shelf life': '2024-02-28', 'Days': -588, 'Month': -19.6, 'Limit sales date': '2023-06-03', 'Write off': 0}
@@ -1246,7 +755,7 @@ BATCH:  ('AU031827', datetime.datetime(2022, 7, 2, 0, 0)) WO:  49.0
 {'Stock Amount': 1126, 'Plant': 'BR01', 'Batch status key': '4.0', 'Blocked': '', 'Shelf life': '2022-11-30', 'Days': -133, 'Month': -4.4, 'Limit sales date': '2022-03-05', 'Write off': 1126}
 {'Stock Amount': 3399, 'Plant': 'BR08', 'Batch status key': '0.0', 'Blocked': '', 'Shelf life': '2022-11-30', 'Days': -133, 'Month': -4.4, 'Limit sales date': '2022-03-05', 'Write off': 3399}
 {'Stock Amount': 693, 'Plant': 'BR08', 'Batch status key': '0.0', 'Blocked': '', 'Shelf life': '2022-11-30', 'Days': -133, 'Month': -4.4, 'Limit sales date': '2022-03-05', 'Write off': 693}
-{'Stock Amount': 444, 'Plant': 'BR08', 'Batch status key': '0.0', 'Blocked': '', 'Shelf life': '2023-01-31', 'Days': -195, 'Month': -6.5, 'Limit sales date': '2022-05-06', 'Write off': 0}
+{'Stock Amount': 444, 'Plant': 'BR08', 'Batch status key': '0.0', 'Blocked': '', 'Shelf life': '2023-01-31', 'Days': -195, 'Month': -6.5, 'Limit sales date': '2022-05-06', 'Write off': 103.0}
 {'Stock Amount': 16, 'Plant': 'BR08', 'Batch status key': '0.0', 'Blocked': 16, 'Shelf life': '2022-06-30', 'Days': 20, 'Month': 0.7, 'Limit sales date': '2021-10-03', 'Write off': 16}
 {'Stock Amount': 414, 'Plant': 'BR08', 'Batch status key': '0.0', 'Blocked': 57, 'Shelf life': '2022-09-30', 'Days': -72, 'Month': -2.4, 'Limit sales date': '2022-01-03', 'Write off': 414}
 {'Stock Amount': 531, 'Plant': 'BR08', 'Batch status key': '0.0', 'Blocked': 457, 'Shelf life': '2022-07-31', 'Days': -11, 'Month': -0.4, 'Limit sales date': '2021-11-03', 'Write off': 531}
@@ -1255,13 +764,13 @@ BATCH:  ('AU031827', datetime.datetime(2022, 7, 2, 0, 0)) WO:  49.0
 {'Stock Amount': 213, 'Plant': 'BR08', 'Batch status key': '0.0', 'Blocked': 213, 'Shelf life': '2022-03-31', 'Days': 111, 'Month': 3.7, 'Limit sales date': '2021-07-04', 'Write off': 213}
 {'Stock Amount': 613, 'Plant': 'BR01', 'Batch status key': '4.0', 'Blocked': '', 'Shelf life': '2022-10-31', 'Days': -103, 'Month': -3.4, 'Limit sales date': '2022-02-03', 'Write off': 613}
 {'Stock Amount': 936, 'Plant': 'BR08', 'Batch status key': '0.0', 'Blocked': '', 'Shelf life': '2022-10-31', 'Days': -103, 'Month': -3.4, 'Limit sales date': '2022-02-03', 'Write off': 936}
-{'Stock Amount': 858, 'Plant': 'BR08', 'Batch status key': '0.0', 'Blocked': '', 'Shelf life': '2023-01-31', 'Days': -195, 'Month': -6.5, 'Limit sales date': '2022-05-06', 'Write off': 628.0}
+{'Stock Amount': 858, 'Plant': 'BR08', 'Batch status key': '0.0', 'Blocked': '', 'Shelf life': '2023-01-31', 'Days': -195, 'Month': -6.5, 'Limit sales date': '2022-05-06', 'Write off': 0}
 {'Stock Amount': 3077, 'Plant': 'BR08', 'Batch status key': '0.0', 'Blocked': 3077, 'Shelf life': '2022-02-28', 'Days': 142, 'Month': 4.7, 'Limit sales date': '2021-06-03', 'Write off': 3077}
-{'Stock Amount': 235, 'Plant': 'BR08', 'Batch status key': '0.0', 'Blocked': '', 'Shelf life': '2023-04-30', 'Days': -284, 'Month': -9.5, 'Limit sales date': '2022-05-05', 'Write off': 0}
+{'Stock Amount': 235, 'Plant': 'BR08', 'Batch status key': '0.0', 'Blocked': '', 'Shelf life': '2023-04-30', 'Days': -284, 'Month': -9.5, 'Limit sales date': '2022-05-05', 'Write off': 185.0}
 {'Stock Amount': 14, 'Plant': 'BR08', 'Batch status key': '0.0', 'Blocked': 14, 'Shelf life': '2022-12-31', 'Days': -164, 'Month': -5.5, 'Limit sales date': '2022-01-05', 'Write off': 14}
 {'Stock Amount': 1280, 'Plant': 'BR01', 'Batch status key': '4.0', 'Blocked': '', 'Shelf life': '2023-10-31', 'Days': -468, 'Month': -15.6, 'Limit sales date': '2023-02-03', 'Write off': 0}
 {'Stock Amount': 227, 'Plant': 'BR01', 'Batch status key': '4.0', 'Blocked': '', 'Shelf life': '2023-10-31', 'Days': -468, 'Month': -15.6, 'Limit sales date': '2023-02-03', 'Write off': 0}
 {'Stock Amount': 2068, 'Plant': 'BR08', 'Batch status key': '0.0', 'Blocked': '', 'Shelf life': '2023-10-31', 'Days': -468, 'Month': -15.6, 'Limit sales date': '2023-02-03', 'Write off': 0}
-{'Stock Amount': 33, 'Plant': 'BR08', 'Batch status key': '0.0', 'Blocked': '', 'Shelf life': '2022-09-30', 'Days': -72, 'Month': -2.4, 'Limit sales date': '2022-07-02', 'Write off': 12.0}
-{'Stock Amount': 49, 'Plant': 'BR08', 'Batch status key': '0.0', 'Blocked': '', 'Shelf life': '2022-09-30', 'Days': -72, 'Month': -2.4, 'Limit sales date': '2022-07-02', 'Write off': 49.0}
+{'Stock Amount': 33, 'Plant': 'BR08', 'Batch status key': '0.0', 'Blocked': '', 'Shelf life': '2022-09-30', 'Days': -72, 'Month': -2.4, 'Limit sales date': '2022-07-02', 'Write off': 0}
+{'Stock Amount': 49, 'Plant': 'BR08', 'Batch status key': '0.0', 'Blocked': '', 'Shelf life': '2022-09-30', 'Days': -72, 'Month': -2.4, 'Limit sales date': '2022-07-02', 'Write off': 45.0}
 {'Stock Amount': 43, 'Plant': 'BR08', 'Batch status key': '0.0', 'Blocked': '', 'Shelf life': '2022-11-30', 'Days': -133, 'Month': -4.4, 'Limit sales date': '2022-03-05', 'Write off': 43}
