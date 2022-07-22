@@ -415,7 +415,7 @@ class Medicamentos:
         #    for b in list(self.d[m]["Batch"].keys()):
         #        print(self.d[m]["Batch"][b])
         
-        #calculateTransfer(self.d, df)
+        calculateTransfer(self.d, df)
         
         df_table = None
         for key in list(self.d.keys()):
