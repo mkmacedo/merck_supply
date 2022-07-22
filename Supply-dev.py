@@ -13,7 +13,9 @@ import re
 from ReadSheets import excelIdentifier
 import traceback
 from SupplyWriteOff import calculateWriteOffs
-from SupplyTransf import calculateTransfer
+from SupplyTrans import calculateTransfer
+from GenerateDict import generateDict 
+
 
 month = sys.argv[1]
 sheets = sys.argv[2:]
@@ -112,6 +114,7 @@ class Medicamentos:
 
         material = self.df_estoque_all['Material No']
         material = material.unique()
+        storageLocationDict = generateDict(self.df_vendas, 'Storage location')
 
         df_provisioning = None
         
@@ -138,6 +141,7 @@ class Medicamentos:
             except:
                 pass
             
+        
             
             for i in range(len(self.df_estoque_all)):
 
@@ -177,7 +181,12 @@ class Medicamentos:
                     self.d[f]['Batch'][str(self.df_estoque_all.loc[i, 'Batch'])]['Limit sales date'] = (limit, limit.strftime('%Y-%m-%d'))[1] # Tuple Datetime
 
                     self.d[f]['Batch'][str(self.df_estoque_all.loc[i, 'Batch'])]['Write off'] = self.d[f]['Batch'][str(self.df_estoque_all.loc[i, 'Batch'])]['Stock Amount']
-
+                    #print(storageLocationDict)
+                    try:
+                        self.d[f]['Batch'][str(self.df_estoque_all.loc[i, 'Batch'])]['Storage location'] = storageLocationDict[material].get(str(self.df_estoque_all.loc[i, 'Batch'])) if storageLocationDict[material] != None else "-"     
+                    except:
+                        ...
+            
             # for key in self.d[f]['Batch'].keys():
             #     print(key)
             #     print(self.d[f]['Batch'][key]['Stock Amount'])

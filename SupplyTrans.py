@@ -22,6 +22,7 @@ def calculateTransfer(dictMateriais, df):
                     batchPlantDict = {}
                     batchBR01Dict = {}
                     batchTransfer = {}
+                    batchStorageLocationDict = {}
 
 
                     for batch in list(dictMateriais[material]['Batch'].keys()):
@@ -32,6 +33,7 @@ def calculateTransfer(dictMateriais, df):
                         batchStockAmountDict[batch] = dictMateriais[material]['Batch'][batch].get('Stock Amount')
                         batchBSKDict[batch] = dictMateriais[material]['Batch'][batch].get('Batch status key')
                         batchPlantDict[batch] = dictMateriais[material]['Batch'][batch].get('Plant')
+                        batchStorageLocationDict[batch] = dictMateriais[material]['Batch'][batch].get('Storage location')
                     
                     orderedBatchList = sorted(batchExpirationDict.items(), key=lambda item: item[1])
                     totalAmount = 0
@@ -70,12 +72,14 @@ def calculateTransfer(dictMateriais, df):
                             transferDict["Planta Atual"] = []
                             transferDict["Planta"] = []
                             transferDict["Qtd"] = []
+                            transferDict["Storage location"] = []
                             
                             for lote in list(batchTransfer.keys()):
                                 transferDict['Lote'].append(lote)
                                 transferDict['Planta Atual'].append(batchPlantDict.get(lote)) 
                                 transferDict['Planta'].append("BR08")                         
                                 transferDict["Qtd"].append(batchTransfer.get(lote))
+                                transferDict['Storage location'].apped(batchStorageLocationDict.get(lote))
 
                             batchTransferDf = pd.DataFrame(data = transferDict)
                             dfTransfer = dfTransfer.append(batchTransferDf)
