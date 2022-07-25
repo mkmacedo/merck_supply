@@ -1,9 +1,6 @@
 from cmath import nan
 from datetime import date, datetime, timedelta
 #from icecream import ic
-import math
-from operator import index
-from cv2 import CALIB_CB_CLUSTERING
 #from tracemalloc import start
 import pandas as pd
 import Regexes
@@ -13,7 +10,7 @@ import re
 from ReadSheets import excelIdentifier
 import traceback
 from SupplyWriteOff import calculateWriteOffs
-from SupplyTrans import calculateTransfer
+from SupplyTransfer import calculateTransfer
 from GenerateDict import generateDict 
 
 
