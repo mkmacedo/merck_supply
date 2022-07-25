@@ -180,7 +180,7 @@ class Medicamentos:
                     self.d[f]['Batch'][str(self.df_estoque_all.loc[i, 'Batch'])]['Write off'] = self.d[f]['Batch'][str(self.df_estoque_all.loc[i, 'Batch'])]['Stock Amount']
                     #print(storageLocationDict)
                     try:
-                        self.d[f]['Batch'][str(self.df_estoque_all.loc[i, 'Batch'])]['Storage location'] = storageLocationDict[material].get(str(self.df_estoque_all.loc[i, 'Batch'])) if storageLocationDict[material] != None else "-"     
+                        self.d[f]['Batch'][str(self.df_estoque_all.loc[i, 'Batch'])]['Storage location'] = storageLocationDict[f].get(str(self.df_estoque_all.loc[i, 'Batch'])) if storageLocationDict[f] != None else "-"     
                     except:
                         ...
             
@@ -232,6 +232,11 @@ class Medicamentos:
 
                         self.d[f]['batchAbaProdutos'][str(self.df_produtos.loc[i, 'Batch'])]['Write off'] = "-"
 
+                        try:
+                            self.d[f]['batchAbaProdutos'][str(self.df_produtos.loc[i, 'Batch'])]['Storage location'] =  "-"     
+                        except:
+                            ...
+                            
         df = {} # Chave ==>> Código do Material; Valor ==>> DataFrame
         codes = list(self.d.keys())
 
@@ -437,6 +442,7 @@ class Medicamentos:
             limitSalesDateList = []
             blockedList = []
             writeOffList = []
+            storageLocationList = []
 
 
             for batchKey in list(self.d[key]['Batch']):
@@ -470,6 +476,9 @@ class Medicamentos:
                 writeOffs = self.d[key]['Batch'][batchKey].get('Write off')
                 writeOffList.append(writeOffs)
 
+                storageLocation = self.d[key]['Batch'][batchKey].get('Storage location')
+                storageLocationList.append(storageLocation)
+
             if self.d[key].get('batchAbaProdutos') != None:
                 for batchKey in list(self.d[key]['batchAbaProdutos']):
 
@@ -502,6 +511,9 @@ class Medicamentos:
                     writeOffs = self.d[key]['batchAbaProdutos'][batchKey].get('Write off')
                     writeOffList.append(writeOffs)
 
+                    storageLocation = self.d[key]['batchAbaProdutos'][batchKey].get('Storage location')
+                    storageLocationList.append(storageLocation)
+
             lgth = len(batchList)
             productList = [key]*lgth
             descriptionList = [self.d[key].get('Description')]*lgth
@@ -532,6 +544,7 @@ class Medicamentos:
                     'Plant': plantList,
                     'BSK': batchStatusKeyList,
                     'Blocked': blockedList,
+                    'Storage Location': storageLocationList,
                     'Destruição': destruicaoList
                     }
 
